@@ -1,14 +1,19 @@
 {
-    "name": "zyneframework/core-min",
-    "description": "Componente Core do Framework Zyne - Pacote Mínimo",
-    "type": "library",
-    "license": "New BSD License",
-    "authors": [
-        {
-            "name": "Gilberto Albino",
-            "email": "zyneframework@zyne.com.br"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "zyneframework/core-min",
+  "description": "Componente Core do Framework Zyne - Pacote Mínimo",
+  "type": "library",
+  "license": "New BSD License",
+  "authors": [
+    {
+      "name": "Gilberto Albino",
+      "email": "zyneframework@zyne.com.br"
+    }
+  ],
+  "require": {},
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Zyne\\": "src/"
+    }
+  }
 }
